@@ -3,15 +3,29 @@ body.vsc-initialized {
     max-width: 500px;
     height: 100%;
     margin: 0;
+    background-color:hsl(210, 46%, 95%);
 }
-
 
 .box {
     width: 325px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color:red;
+    margin-top: 74px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.imgcontainer {
+    width: 325px;
+    height: 200px ;
+    object-fit: cover;
+    object-position: center;
+}
+
+.textcontainer {
+    width: 325px;
+    height: 312px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -19,7 +33,7 @@ body.vsc-initialized {
 
 
 
-The designs were created to the following widths:
+/*The designs were created to the following widths:
 
 - Mobile: 375px
 - Desktop: 1440px
@@ -48,4 +62,4 @@ We provide SVGs for the social icons. But please feel free to use a font icon li
 
 - [Font Awesome](https://fontawesome.com)
 - [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com)
+- [Ionicons](https://ionicons.com)*/
