@@ -1,3 +1,6 @@
+@import url(https://fonts.google.com/specimen/Manrope);
+
+/* Backgraund*/
 body.vsc-initialized {
     width: 375px;
     max-width: 500px;
@@ -6,6 +9,7 @@ body.vsc-initialized {
     background-color:hsl(210, 46%, 95%);
 }
 
+/* Box*/
 .box {
     width: 325px;
     height: auto;
@@ -14,22 +18,149 @@ body.vsc-initialized {
     margin-top: 74px;
     background-color: #fff;
     border-radius: 2px;
+    border-radius: 11px;
 }
 
+/* Image*/
 .imgcontainer {
     width: 325px;
-    height: 200px ;
-    object-fit: cover;
-    object-position: center;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 11px 11px 0 0;
 }
 
+.imgcut {
+    width: 325px;
+    transform: translateX(0%) translateY(-7%);
+    object-fit: cover;
+}
+
+/* Text in box*/
 .textcontainer {
     width: 325px;
-    height: 312px;
+    height: auto;
+    margin-top: 39px;
+    color: hsl(217, 19%, 35%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.text {
+    width: 260px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    margin: 20px auto 0;
+    font-size: 0.85em;
+    line-height: 1.3em;
+}
+
+/* foote*/
+.footer {
+    width: 325px;
+    height: 40px; 
+    margin: 32px auto 0px;
+    padding-bottom: 21px;
+}
+
+.footer-container {
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Avatar*/
+.imgavatarcontainer {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.imgavatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+/* Text*/
+.boxcontainer {
+    width: 114px;
+    float: left;
+    margin: 0 60px 0 17px;
+}
+
+.boxtext {
+    margin-top: 5px;
+
+}
+
+.boxtext P{
+    width: 114px;
+    margin: 0;
+    float: left;
+}
+
+.nametext {
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.82em;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+.datetext {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 100;
+    font-size: 0.85em;
+    line-height: 27px;
+}
+
+
+/* Share*/
+.share {
+    width: 33px;
+    height: 40px;
+    float: left;
+}
+
+.share {
+    width: 33px;
+    height: 33px;
+    float: left;
+    margin-top: 3px;
+    background-color:hsl(210, 46%, 95%);
+    border-radius: 50%;
+}
+
+.share_icon {
+    width: 14px;
+    height: auto;
+    position: absolute;
+    transform: translate(72%, 75%); 
+
+}
+
+/* Credtis*/
+.attribution { 
+    margin-top: 11px;
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
 
 
